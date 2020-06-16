@@ -15,6 +15,7 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  font-family: "BYekan";
 }
 
 .docusaurus-highlight-code-line {
@@ -22,4 +23,20 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+@font-face {
+  font-family: "BYekan";
+  src: "fonts/BYekan-webfont.eot";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BYekan";
+  src: "fonts/BYekan-webfont.eot" format("eot"),
+    "fonts/BYekan-webfont.woff" format("woff"),
+    "fonts/BYekan-webfont.ttf" format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
