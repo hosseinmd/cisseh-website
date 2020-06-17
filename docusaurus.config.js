@@ -35,12 +35,12 @@ module.exports = {
           title: "مستندات",
           items: [
             {
-              label: "Style Guide",
+              label: "شروع",
               to: "docs/",
             },
             {
-              label: "Second Doc",
-              to: "docs/doc2/",
+              label: "ورود به نرم افزار",
+              to: "docs/signin/",
             },
           ],
         },
