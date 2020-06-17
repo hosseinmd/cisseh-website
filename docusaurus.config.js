@@ -8,7 +8,7 @@ module.exports = {
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "سیسه",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
@@ -17,10 +17,10 @@ module.exports = {
         {
           to: "docs/",
           activeBasePath: "docs",
-          label: "Docs",
+          label: "مستندات",
           position: "left",
         },
-        { to: "blog", label: "Blog", position: "left" },
+        { to: "blog", label: "بلاگ", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
@@ -32,7 +32,7 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "مستندات",
           items: [
             {
               label: "Style Guide",
@@ -45,27 +45,27 @@ module.exports = {
           ],
         },
         {
-          title: "Community",
+          title: "جوامع",
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              href: "https://stackoverflow.com/questions/tagged/cisseh",
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "https://discordapp.com/invite/cisseh",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/cisseh",
             },
           ],
         },
         {
-          title: "More",
+          title: "بیشتر",
           items: [
             {
-              label: "Blog",
+              label: "بلاگ",
               to: "blog",
             },
             {
