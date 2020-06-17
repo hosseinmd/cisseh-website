@@ -16,6 +16,7 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
   font-family: "BYekan";
+  direction: rtl;
 }
 
 .docusaurus-highlight-code-line {
