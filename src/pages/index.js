@@ -8,32 +8,32 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>رایگان</>,
     imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        نرم افزار را رایگان دانلود کنید و استفاده نمایید. تمام ویژگی های نرم
+        افزار و همچنین پشتیابی نرم افزار نیز به صورت رایگان انجام می شود.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>همه جا در دسترس</>,
     imageUrl: "img/undraw_docusaurus_tree.svg",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        قابل اجرا بر روی دستگاه های موبایل٬ تبلت٬ ویندوز و مک می باشد. و همچین
+        شما می توانید از نسخه تحت وب آن زیر استفاده کنید.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>آموزش</>,
     imageUrl: "img/undraw_docusaurus_react.svg",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        آموزش نرم افزار با پشتیبانی کامل سیسه در قالب پروژه متن باز با امکان
+        مشارکت همگانی صورت می گیرد.
       </>
     ),
   },
