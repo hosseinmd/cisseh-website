@@ -1,7 +1,7 @@
 module.exports = {
   title: "صندوق فروشگاهی سیسه",
   tagline: "نرم افزار مدیریت فروش",
-  url: "https://your-docusaurus-test-site.com",
+  url: "http://www.cisseh.com",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "facebook", // Usually your GitHub org/user name.
@@ -22,7 +22,7 @@ module.exports = {
         },
         { to: "blog", label: "بلاگ", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/hosseinmd/cisseh-website",
           label: "GitHub",
           position: "right",
         },
@@ -70,12 +70,12 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/hosseinmd/cisseh-website",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cisseh.`,
     },
   },
   presets: [
@@ -87,14 +87,12 @@ module.exports = {
           homePageId: "Installation",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/hosseinmd/cisseh-website/edit/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+          editUrl: "https://github.com/hosseinmd/cisseh-website/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
