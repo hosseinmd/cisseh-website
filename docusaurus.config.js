@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cisseh.`,
+      copyright: `<p style="font-family: sans-serif;">Copyright © ${new Date().getFullYear()} Cisseh.</p>`,
     },
   },
   presets: [
