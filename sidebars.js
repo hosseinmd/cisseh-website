@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    شروع: ["Installation", "signin"],
+    شروع: ["Installation", "Signin", "Sale"],
     // Features: ["mdx"],
   },
 };
