@@ -3,7 +3,11 @@ id: signin
 title: ورود به نرم افزار
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 بعد از نصب نرم افزار شما به عنوان مالک سیستم تنظیمات ورود به نرم افزار را انجام میدهید.
+
+<img alt="صفحه تنظیم رمز مالک" style={{width:200,height:200}} src={useBaseUrl('img/screenShots/signin.png')} />
 
 ## مالک
 
