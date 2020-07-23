@@ -45,19 +45,15 @@ module.exports = {
           ],
         },
         {
-          title: "جوامع",
+          title: "دانلود",
           items: [
+            {
+              label: "نسخه اندروید",
+              href: "https://cafebazaar.ir/app/com.hm.pos303",
+            },
             {
               label: "Stack Overflow",
               href: "https://stackoverflow.com/questions/tagged/cisseh",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/cisseh",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/cisseh",
             },
           ],
         },
