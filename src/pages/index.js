@@ -64,8 +64,12 @@ function Home() {
     >
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className={classnames("hero__title", styles.bannerText)}>
+            {siteConfig.title}
+          </h1>
+          <p className={classnames("hero__subtitle", styles.bannerText)}>
+            {siteConfig.tagline}
+          </p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
